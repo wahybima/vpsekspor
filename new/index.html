@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Pembuatan Website, Landing Page & VPS Profesional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-color: #F8F7F4;
+        }
+        .section-bg {
+             background-color: #FFFFFF;
+        }
+        .cta-bg {
+            background-color: #0D3B66;
+        }
+        .brand-text {
+            color: #0D3B66;
+        }
+        .accent-color {
+            color: #EE964B;
+        }
+        .accent-bg {
+            background-color: #EE964B;
+        }
+        .accent-bg-hover:hover {
+            background-color: #F4D35E;
+        }
+        .card-shadow {
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.07);
+        }
+        .card-shadow-hover:hover {
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+        .nav-link {
+            transition: color 0.3s;
+        }
+        .nav-link:hover {
+            color: #EE964B;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header id="header" class="bg-white/80 backdrop-blur-sm sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold brand-text">Vps Ekspor</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#layanan" class="nav-link text-gray-600 font-medium">Layanan</a>
+                <a href="#mengapa-kami" class="nav-link text-gray-600 font-medium">Mengapa Kami</a>
+                <a href="#kontak" class="nav-link text-gray-600 font-medium">Kontak</a>
+            </div>
+            <a href="#kontak" class="hidden md:block px-5 py-2 text-white font-semibold rounded-full accent-bg accent-bg-hover transition-colors duration-300">Hubungi Kami</a>
+            <button id="mobile-menu-button" class="md:hidden">
+                <svg class="w-6 h-6 brand-text" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#layanan" class="block py-2 text-gray-600 font-medium">Layanan</a>
+            <a href="#mengapa-kami" class="block py-2 text-gray-600 font-medium">Mengapa Kami</a>
+            <a href="#kontak" class="block py-2 text-gray-600 font-medium">Kontak</a>
+            <a href="#kontak" class="block mt-2 text-center w-full px-5 py-2 text-white font-semibold rounded-full accent-bg accent-bg-hover transition-colors duration-300">Hubungi Kami</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="beranda" class="hero-bg py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold brand-text leading-tight">Wujudkan Bisnis Online Profesional Anda</h1>
+                <p class="mt-6 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">Tingkatkan jangkauan bisnis Anda ke level nasional bahkan global. Kami hadir untuk menjadi partner digital terpercaya Anda dalam membangun kehadiran online yang solid dan handal.</p>
+                <div class="mt-10">
+                    <a href="#layanan" class="px-8 py-4 text-white font-bold rounded-full accent-bg accent-bg-hover transition-colors duration-300 text-lg">Lihat Layanan Kami</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="layanan" class="section-bg py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold brand-text">Solusi Lengkap Kebutuhan Digital</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Kami menyediakan solusi digital yang komprehensif untuk membawa bisnis Anda ke level berikutnya. Jelajahi layanan utama kami di bawah ini untuk menemukan paket yang paling sesuai dengan kebutuhan Anda.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-10">
+                    <!-- Website & Landing Page Card -->
+                    <div class="bg-white p-8 rounded-xl card-shadow card-shadow-hover transition-shadow duration-300 transform hover:-translate-y-1">
+                        <div class="text-3xl accent-color mb-4">🖥️</div>
+                        <h3 class="text-2xl font-bold brand-text mb-3">Jasa Pembuatan Website & Landing Page</h3>
+                        <p class="text-gray-600 mb-6">Tampilkan profil perusahaan, produk, atau jasa Anda dengan desain yang modern, profesional, dan responsif. Sempurna di semua perangkat.</p>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start"><span class="accent-color mr-3 mt-1">✓</span> <span>Website Perusahaan (Company Profile)</span></li>
+                            <li class="flex items-start"><span class="accent-color mr-3 mt-1">✓</span> <span>Toko Online (E-commerce)</span></li>
+                            <li class="flex items-start"><span class="accent-color mr-3 mt-1">✓</span> <span>Website untuk Bisnis Ekspor</span></li>
+                            <li class="flex items-start"><span class="accent-color mr-3 mt-1">✓</span> <span>Landing Page untuk Promosi</span></li>
+                        </ul>
+                    </div>
+                    <!-- VPS Hosting Card -->
+                    <div class="bg-white p-8 rounded-xl card-shadow card-shadow-hover transition-shadow duration-300 transform hover:-translate-y-1">
+                        <div class="text-3xl accent-color mb-4">🚀</div>
+                        <h3 class="text-2xl font-bold brand-text mb-3">Solusi VPS Cepat & Andal</h3>
+                        <p class="text-gray-600 mb-6">Butuh performa website yang super cepat, stabil, dan aman? Kami sediakan layanan hosting Virtual Private Server (VPS) berkualitas untuk memastikan website Anda selalu bisa diakses pelanggan tanpa hambatan.</p>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start"><span class="accent-color mr-3 mt-1">✓</span> <span>Performa Kecepatan Tinggi</span></li>
+                            <li class="flex items-start"><span class="accent-color mr-3 mt-1">✓</span> <span>Keamanan Terjamin</span></li>
+                            <li class="flex items-start"><span class="accent-color mr-3 mt-1">✓</span> <span>Skalabilitas Fleksibel</span></li>
+                            <li class="flex items-start"><span class="accent-color mr-3 mt-1">✓</span> <span>Uptime 99.9%</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Us Section -->
+        <section id="mengapa-kami" class="hero-bg py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold brand-text">Mengapa Memilih Kami?</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Kami berkomitmen untuk memberikan hasil terbaik dengan nilai-nilai yang kami pegang teguh dalam setiap proyek yang kami kerjakan.</p>
+                </div>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center p-6">
+                        <div class="text-4xl mb-4">👥</div>
+                        <h4 class="text-xl font-bold brand-text mb-2">Tim Profesional</h4>
+                        <p class="text-gray-600">Dikerjakan oleh tenaga ahli yang berpengalaman di bidangnya.</p>
+                    </div>
+                    <div class="text-center p-6">
+                        <div class="text-4xl mb-4">🎨</div>
+                        <h4 class="text-xl font-bold brand-text mb-2">Desain Modern</h4>
+                        <p class="text-gray-600">Tampilan website yang menarik dan sesuai dengan tren terkini.</p>
+                    </div>
+                    <div class="text-center p-6">
+                        <div class="text-4xl mb-4">💰</div>
+                        <h4 class="text-xl font-bold brand-text mb-2">Harga Kompetitif</h4>
+                        <p class="text-gray-600">Dapatkan penawaran terbaik yang sesuai dengan anggaran Anda.</p>
+                    </div>
+                    <div class="text-center p-6">
+                        <div class="text-4xl mb-4">💬</div>
+                        <h4 class="text-xl font-bold brand-text mb-2">Konsultasi Gratis</h4>
+                        <p class="text-gray-600">Diskusikan kebutuhan Anda tanpa biaya untuk solusi yang tepat.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact / CTA Section -->
+        <section id="kontak" class="cta-bg text-white py-16 md:py-24">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold">Siap Go Digital & Tembus Pasar Global?</h2>
+                <p class="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">Jangan tunda lagi! Hubungi kami sekarang untuk konsultasi gratis dan dapatkan penawaran spesial untuk memulai perjalanan digital bisnis Anda.</p>
+                <div class="mt-10">
+                    <a href="https://wa.me/6282275955901?text=Halo,%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website." target="_blank" class="inline-block bg-white px-10 py-5 text-xl font-bold brand-text rounded-full shadow-lg transition-transform transform hover:scale-105 duration-300">
+                        📞 Hubungi via WhatsApp
+                    </a>
+                    <p class="mt-6 text-gray-300 font-semibold text-2xl tracking-wider">0822-7595-5901</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center text-gray-400">
+            <p>&copy; 2025 Vps Ekspor. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const navLinks = document.querySelectorAll('#mobile-menu a, #header nav a');
+
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (!mobileMenu.classList.contains('hidden')) {
+                         mobileMenu.classList.add('hidden');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
