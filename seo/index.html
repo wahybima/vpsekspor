@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa SEO Profesional - Peringkat #1 Google & Banjir Traffic</title>
+    <meta name="description" content="Tingkatkan visibilitas, traffic, dan penjualan bisnis Anda dengan Jasa SEO terpercaya. Kami bantu website Anda mendominasi halaman pertama Google.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* CSS Reset & Basic Styles */
+        :root {
+            --primary-color: #005A9C; /* Google Blue */
+            --secondary-color: #34a853; /* Google Green */
+            --dark-color: #333;
+            --light-color: #f8f9fa;
+            --white-color: #fff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            background-color: var(--white-color);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 2rem;
+        }
+
+        /* Utility Classes */
+        .text-center { text-align: center; }
+        .text-primary { color: var(--primary-color); }
+        .text-secondary { color: var(--secondary-color); }
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        .section-subtitle {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 3rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Header */
+        .header {
+            background: var(--white-color);
+            padding: 1rem 0;
+            border-bottom: 1px solid #eee;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .header .main-nav a {
+            color: var(--dark-color);
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        .header .main-nav a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Hero Section */
+        #hero {
+            background: linear-gradient(rgba(26, 115, 232, 0.85), rgba(26, 115, 232, 0.85)), url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200') no-repeat center center/cover;
+            color: var(--white-color);
+            padding: 6rem 0;
+            text-align: center;
+        }
+        #hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+        #hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: var(--secondary-color);
+            color: var(--white-color);
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background: #2c8e42;
+        }
+        .btn-primary {
+             background: var(--primary-color);
+        }
+        .btn-primary:hover {
+             background: #1465cc;
+        }
+        
+        /* Sections */
+        section {
+            padding: 4rem 0;
+        }
+        
+        /* Problem Section */
+        #problem {
+            background: var(--light-color);
+        }
+
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .problem-card {
+            background: var(--white-color);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .problem-card i {
+            font-size: 3rem;
+            color: #e74c3c; /* Red color for problems */
+            margin-bottom: 1rem;
+        }
+        
+        /* Features Section */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+        }
+
+        .feature-item {
+            text-align: center;
+        }
+
+        .feature-item .icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            display: inline-block;
+            background: var(--light-color);
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            border-radius: 50%;
+        }
+
+        .feature-item h3 {
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        /* Pricing Section */
+        #pricing {
+            background: var(--light-color);
+        }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .pricing-card {
+            background: var(--white-color);
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .pricing-card.popular {
+            border: 3px solid var(--secondary-color);
+            transform: scale(1.05);
+        }
+        
+        .popular-badge {
+            background: var(--secondary-color);
+            color: white;
+            padding: 0.3rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .pricing-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .pricing-card .price {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        .pricing-card .price span {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #666;
+        }
+        
+        .pricing-card ul {
+            list-style: none;
+            margin: 2rem 0;
+            text-align: left;
+        }
+
+        .pricing-card ul li {
+            padding: 0.7rem 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .pricing-card ul li i {
+            color: var(--secondary-color);
+            margin-right: 0.5rem;
+        }
+        
+        .pricing-card ul li:last-child {
+            border-bottom: none;
+        }
+
+        /* Testimonials */
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .testimonial-card {
+            background: var(--light-color);
+            padding: 2rem;
+            border-left: 5px solid var(--primary-color);
+            border-radius: 5px;
+        }
+        .testimonial-card p {
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        .testimonial-card .author {
+            font-weight: 700;
+        }
+        .testimonial-card .author span {
+            font-weight: 400;
+            color: #555;
+            display: block;
+            font-size: 0.9rem;
+        }
+
+        /* FAQ Section */
+        #faq {
+            max-width: 800px;
+            margin: auto;
+        }
+        .faq-item {
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1.5rem;
+        }
+        .faq-item summary {
+            font-weight: 600;
+            font-size: 1.2rem;
+            cursor: pointer;
+            list-style: none; /* Hide default marker */
+            position: relative;
+            padding-right: 2rem;
+        }
+        .faq-item summary::-webkit-details-marker { display: none; }
+        .faq-item summary::after {
+            content: '+';
+            position: absolute;
+            right: 0;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+        .faq-item[open] summary::after {
+            content: '−';
+        }
+        .faq-item p {
+            margin-top: 1rem;
+            color: #555;
+        }
+        
+        /* CTA Section */
+        #cta {
+            background: var(--primary-color);
+            color: var(--white-color);
+        }
+        #cta .container {
+            text-align: center;
+        }
+        #cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        #cta p {
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--dark-color);
+            color: var(--white-color);
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .footer a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+        
+        /* Responsive Styles */
+        @media(max-width: 768px) {
+            .header .container {
+                flex-direction: column;
+            }
+            .header .main-nav {
+                margin-top: 1rem;
+            }
+            .header .main-nav a {
+                margin: 0 0.5rem;
+            }
+            
+            #hero h1 { font-size: 2.5rem; }
+            #hero p { font-size: 1.1rem; }
+            .section-title { font-size: 2rem; }
+            
+            .pricing-card.popular {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">VPS Ekspor</a>
+            <nav class="main-nav">
+                <a href="#services">Layanan</a>
+                <a href="#pricing">Paket SEO</a>
+                <a href="#faq">FAQ</a>
+
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container">
+                <h1>Tingkatkan Ranking & Raih Ribuan Pelanggan Organik</h1>
+                <p>Jasa SEO Profesional untuk menempatkan website Anda di Halaman Pertama Google, mendatangkan traffic berkualitas, dan meningkatkan penjualan Anda.</p>
+                <a href="#pricing" class="btn">Lihat Paket SEO</a>
+            </div>
+        </section>
+        
+        <!-- Problem Section -->
+        <section id="problem">
+            <div class="container text-center">
+                <h2 class="section-title">Apakah Bisnis Anda Menghadapi Ini?</h2>
+                <p class="section-subtitle">Jika ya, Anda berada di tempat yang tepat. SEO adalah solusinya.</p>
+                <div class="problem-grid">
+                    <div class="problem-card">
+                        <i class="fas fa-search-minus"></i>
+                        <h3>Sulit Ditemukan</h3>
+                        <p>Website Anda 'tenggelam' di halaman pencarian Google, kalah dari kompetitor.</p>
+                    </div>
+                    <div class="problem-card">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <h3>Biaya Iklan Mahal</h3>
+                        <p>Terlalu bergantung pada iklan berbayar (Ads) yang biayanya terus meningkat.</p>
+                    </div>
+                    <div class="problem-card">
+                        <i class="fas-solid fa-chart-line-down"></i>
+                        <h3>Traffic Tidak Berkualitas</h3>
+                        <p>Pengunjung website banyak, tapi sedikit yang menjadi pelanggan atau pembeli.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services/Features Section -->
+        <section id="services">
+            <div class="container text-center">
+                <h2 class="section-title">Strategi SEO Komprehensif Kami</h2>
+                <p class="section-subtitle">Kami menerapkan metode SEO terbaik yang terbukti efektif untuk membawa hasil maksimal bagi bisnis Anda.</p>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+                        <h3>Audit & Riset Keyword</h3>
+                        <p>Menganalisis website Anda dan menemukan kata kunci 'emas' yang paling banyak dicari oleh calon pelanggan Anda.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon"><i class="fas fa-file-code"></i></div>
+                        <h3>Optimasi On-Page</h3>
+                        <p>Memperbaiki struktur, konten, dan elemen di dalam website Anda agar 'disukai' oleh Google dan mudah dipahami pengguna.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon"><i class="fas fa-cogs"></i></div>
+                        <h3>Technical SEO</h3>
+                        <p>Memastikan website Anda cepat, mobile-friendly, dan bebas dari error teknis yang menghambat peringkat.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon"><i class="fas fa-link"></i></div>
+                        <h3>Link Building Berkualitas</h3>
+                        <p>Membangun backlink dari situs-situs bereputasi untuk meningkatkan otoritas dan kepercayaan website Anda di mata Google.</p>
+                    </div>
+                     <div class="feature-item">
+                        <div class="icon"><i class="fas fa-pen-to-square"></i></div>
+                        <h3>Content Marketing</h3>
+                        <p>Membuat konten informatif dan bermanfaat yang menarik audiens dan memperkuat relevansi keyword Anda.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon"><i class="fas fa-chart-pie"></i></div>
+                        <h3>Laporan Transparan</h3>
+                        <p>Anda akan menerima laporan rutin yang mudah dipahami tentang kemajuan peringkat, traffic, dan performa SEO.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing">
+            <div class="container text-center">
+                <h2 class="section-title">Paket Investasi SEO Anda</h2>
+                <p class="section-subtitle">Pilih paket yang paling sesuai dengan kebutuhan dan target pertumbuhan bisnis Anda.</p>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3>Paket UKM</h3>
+                        <div class="price">Rp 2.5 jt<span>/bulan</span></div>
+                        <ul>
+                            <li><i class="fas fa-check"></i>Analisis <strong>10</strong> Keywords</li>
+                            <li><i class="fas fa-check"></i>Optimasi On-Page</li>
+                            <li><i class="fas fa-check"></i>Optimasi Technical SEO</li>
+                            <li><i class="fas fa-check"></i>5 Backlink Berkualitas/bulan</li>
+                            <li><i class="fas fa-check"></i>Laporan Bulanan</li>
+                        </ul>
+                        <a href="https://wa.me/6282275955901?text=Halo, saya ingin konsultasi gratis tentang Jasa SEO untuk website saya.https://wa.me/6282275955901?text=Halo, saya ingin konsultasi gratis tentang Jasa SEO untuk website saya." class="btn btn-primary">Pilih Paket</a>
+                    </div>
+                    <div class="pricing-card popular">
+                        <span class="popular-badge">Paling Laris</span>
+                        <h3>Paket Bisnis</h3>
+                        <div class="price">Rp 5 jt<span>/bulan</span></div>
+                        <ul>
+                            <li><i class="fas fa-check"></i>Analisis <strong>25</strong> Keywords</li>
+                            <li><i class="fas fa-check"></i>Optimasi On-Page & Konten</li>
+                            <li><i class="fas fa-check"></i>Optimasi Technical SEO Lanjutan</li>
+                            <li><i class="fas fa-check"></i>15 Backlink Berkualitas/bulan</li>
+                            <li><i class="fas fa-check"></i>Analisis Kompetitor</li>
+                            <li><i class="fas fa-check"></i>Laporan Bulanan & Konsultasi</li>
+                        </ul>
+                        <a href="https://wa.me/6282275955901?text=Halo, saya ingin konsultasi gratis tentang Jasa SEO untuk website saya." class="btn">Pilih Paket</a>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Paket Korporat</h3>
+                        <div class="price">Custom<span>/bulan</span></div>
+                        <ul>
+                            <li><i class="fas fa-check"></i>Analisis <strong>50+</strong> Keywords</li>
+                            <li><i class="fas fa-check"></i>Strategi SEO Komprehensif</li>
+                            <li><i class="fas fa-check"></i>Manajemen Reputasi Online</li>
+                            <li><i class="fas fa-check"></i>Link Building Skala Besar</li>
+                            <li><i class="fas fa-check"></i>Dedicated SEO Specialist</li>
+                            <li><i class="fas fa-check"></i>Laporan Kustom & Meeting Rutin</li>
+                        </ul>
+                        <a href="https://wa.me/6282275955901?text=Halo, saya ingin konsultasi gratis tentang Jasa SEO untuk website saya." class="btn btn-primary">Hubungi Kami</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <div class="container">
+                <h2 class="section-title text-center">Kisah Sukses Klien Kami</h2>
+                <p class="section-subtitle text-center">Kami tidak hanya bicara, kami memberikan hasil nyata.</p>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p>"Penjualan toko online saya meningkat 250% setelah 6 bulan menggunakan jasa SEO mereka. Sekarang, 70% penjualan datang dari traffic organik Google. Sangat direkomendasikan!"</p>
+                        <div class="author">
+                            Yola
+                            <span>Owner, flowyola.id </span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Sebagai penyedia jasa lokal, website kami sebelumnya sepi pengunjung. Tim VPS Ekspor berhasil membuat kami ranking #1 untuk keyword 'servis AC Jakarta'. Telepon terus berdering!"</p>
+                        <div class="author">
+                            Risky Ristama
+                            <span>Pemilik, Jaya Cool Teknik</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Profesional, transparan, dan hasilnya terukur. Laporan bulanannya sangat detail dan mudah dimengerti. Investasi SEO terbaik yang pernah kami lakukan untuk perusahaan."</p>
+                        <div class="author">
+                            Sonia
+                            <span> Manager, PT. Cipta Solusi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="container">
+            <h2 class="section-title text-center">Pertanyaan Umum (FAQ)</h2>
+            <details class="faq-item">
+                <summary>Apa itu SEO dan mengapa penting untuk bisnis saya?</summary>
+                <p>SEO (Search Engine Optimization) adalah proses mengoptimalkan website Anda agar mendapat peringkat tinggi di hasil pencarian mesin pencari seperti Google. Ini penting karena mayoritas konsumen mencari produk atau jasa secara online. Peringkat tinggi berarti lebih banyak visibilitas, traffic, dan potensi pelanggan tanpa harus membayar iklan.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Berapa lama waktu yang dibutuhkan untuk melihat hasil SEO?</summary>
+                <p>SEO adalah investasi jangka panjang. Hasil awal seperti kenaikan ranking untuk beberapa keyword bisa terlihat dalam 3-4 bulan. Hasil signifikan seperti peningkatan traffic dan leads biasanya terlihat dalam 6-12 bulan, tergantung pada persaingan industri dan kondisi awal website Anda.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Apakah Anda memberikan garansi peringkat #1 di Google?</summary>
+                <p>Tidak ada agensi SEO yang etis dapat menjamin peringkat #1, karena algoritma Google terus berubah dan berada di luar kendali siapa pun. Namun, kami menjamin akan menerapkan strategi SEO terbaik yang telah terbukti untuk meningkatkan peringkat dan traffic Anda secara signifikan.</p>
+            </details>
+             <details class="faq-item">
+                <summary>Apa bedanya On-Page SEO dan Off-Page SEO?</summary>
+                <p>On-Page SEO adalah semua optimasi yang dilakukan DI DALAM website Anda, seperti perbaikan judul, konten, dan kecepatan website. Off-Page SEO adalah semua upaya yang dilakukan DI LUAR website Anda untuk membangun otoritas, terutama melalui link building (mendapatkan tautan dari website lain).</p>
+            </details>
+        </section>
+        
+        <!-- Final CTA Section -->
+        <section id="cta">
+            <div class="container">
+                <h2>Siap Mendominasi Halaman Pertama Google?</h2>
+                <p>Hentikan kehilangan calon pelanggan ke tangan kompetitor. Mari diskusikan bagaimana kami bisa membantu bisnis Anda bertumbuh.</p>
+                <a href="https://wa.me/6282275955901?text=Halo, saya ingin konsultasi gratis tentang Jasa SEO untuk website saya." target="_blank" class="btn">
+                    <i class="fab fa-whatsapp"></i> Dapatkan Konsultasi Gratis
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025. All Rights Reserved. | Dibuat oleh <a href="https://vpsekspor.com/">vpsekspor.com</a></p>
+            <p>email@vpsekspor.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
