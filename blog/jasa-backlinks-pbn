@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa PBN Backlinks VPS Ekspor - Dominasi Pasar Global!</title>
+    <meta name="description" content="Tingkatkan ranking website Anda di pasar internasional (USA, Europe, dll) dengan PBN Backlinks premium yang dihosting di VPS Ekspor ber-IP dedicated.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* CSS Reset & Basic Styles */
+        :root {
+            --primary-color: #005A9C; /* Blue */
+            --secondary-color: #28a745; /* Green */
+            --dark-color: #333;
+            --light-color: #f4f4f4;
+            --white-color: #fff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            background-color: var(--white-color);
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 2rem;
+        }
+
+        /* Utility Classes */
+        .text-center { text-align: center; }
+        .text-primary { color: var(--primary-color); }
+        .text-secondary { color: var(--secondary-color); }
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        .section-subtitle {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 3rem;
+        }
+
+        /* Header */
+        .header {
+            background: var(--white-color);
+            padding: 1rem 0;
+            border-bottom: 1px solid #eee;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .header .main-nav a {
+            color: var(--dark-color);
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        .header .main-nav a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Hero Section */
+        #hero {
+            background: linear-gradient(rgba(0, 90, 156, 0.8), rgba(0, 90, 156, 0.8)), url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200') no-repeat center center/cover;
+            color: var(--white-color);
+            padding: 6rem 0;
+            text-align: center;
+        }
+        #hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+        #hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: var(--secondary-color);
+            color: var(--white-color);
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background: #218838;
+        }
+        .btn-primary {
+             background: var(--primary-color);
+        }
+        .btn-primary:hover {
+             background: #004a80;
+        }
+        
+        /* Sections */
+        section {
+            padding: 4rem 0;
+        }
+        
+        /* Problem Section */
+        #problem {
+            background: var(--light-color);
+        }
+
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .problem-card {
+            background: var(--white-color);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        .problem-card i {
+            font-size: 3rem;
+            color: #e74c3c; /* Red color for problems */
+            margin-bottom: 1rem;
+        }
+        
+        /* Features Section */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+        }
+
+        .feature-item .icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+        }
+
+        .feature-item h3 {
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        /* Pricing Section */
+        #pricing {
+            background: var(--light-color);
+        }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .pricing-card {
+            background: var(--white-color);
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .pricing-card.popular {
+            border: 3px solid var(--secondary-color);
+            transform: scale(1.05);
+        }
+        
+        .popular-badge {
+            background: var(--secondary-color);
+            color: white;
+            padding: 0.3rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+
+        .pricing-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .pricing-card .price {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        .pricing-card .price span {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #666;
+        }
+        
+        .pricing-card ul {
+            list-style: none;
+            margin: 2rem 0;
+        }
+
+        .pricing-card ul li {
+            padding: 0.7rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .pricing-card ul li:last-child {
+            border-bottom: none;
+        }
+
+        /* Testimonials */
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .testimonial-card {
+            background: var(--light-color);
+            padding: 2rem;
+            border-left: 5px solid var(--primary-color);
+            border-radius: 5px;
+        }
+        .testimonial-card p {
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+        .testimonial-card .author {
+            font-weight: 700;
+        }
+        .testimonial-card .author span {
+            font-weight: 400;
+            color: #555;
+            display: block;
+            font-size: 0.9rem;
+        }
+
+        /* FAQ Section */
+        #faq {
+            max-width: 800px;
+            margin: auto;
+        }
+        .faq-item {
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1.5rem;
+        }
+        .faq-item summary {
+            font-weight: 600;
+            font-size: 1.2rem;
+            cursor: pointer;
+            list-style: none; /* Hide default marker */
+            position: relative;
+            padding-right: 2rem;
+        }
+        .faq-item summary::-webkit-details-marker { display: none; }
+        .faq-item summary::after {
+            content: '+';
+            position: absolute;
+            right: 0;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+        .faq-item[open] summary::after {
+            content: '−';
+        }
+        .faq-item p {
+            margin-top: 1rem;
+            color: #555;
+        }
+        
+        /* CTA Section */
+        #cta {
+            background: var(--primary-color);
+            color: var(--white-color);
+        }
+        #cta .container {
+            text-align: center;
+        }
+        #cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        #cta p {
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--dark-color);
+            color: var(--white-color);
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .footer a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+        
+        /* Responsive Styles */
+        @media(max-width: 768px) {
+            .header .container {
+                flex-direction: column;
+            }
+            .header .main-nav {
+                margin-top: 1rem;
+            }
+            .header .main-nav a {
+                margin: 0 0.5rem;
+            }
+            
+            #hero h1 { font-size: 2.5rem; }
+            #hero p { font-size: 1.1rem; }
+            .section-title { font-size: 2rem; }
+            
+            .pricing-card.popular {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">VPS Ekspor</a>
+            <nav class="main-nav">
+                <a href="#features">Fitur</a>
+                <a href="#pricing">Paket Harga</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container">
+                <h1>Dominasi Pasar Global dengan PBN Backlinks di VPS Ekspor</h1>
+                <p>Tingkatkan ranking & traffic internasional website Anda secara signifikan. Dapatkan backlink berkualitas dari PBN yang dihosting di server USA, Europe, dan Asia.</p>
+                <a href="#pricing" class="btn">Lihat Paket Harga</a>
+            </div>
+        </section>
+        
+        <!-- Problem Section -->
+        <section id="problem">
+            <div class="container text-center">
+                <h2 class="section-title">Kesulitan Menjangkau Audiens Internasional?</h2>
+                <p class="section-subtitle">Mungkin Anda sedang menghadapi tantangan ini.</p>
+                <div class="problem-grid">
+                    <div class="problem-card">
+                        <i class="fas fa-chart-line-down"></i>
+                        <h3>Ranking Stagnan</h3>
+                        <p>Website Anda sulit naik ke halaman pertama Google di negara target (US, UK, DE, dll).</p>
+                    </div>
+                    <div class="problem-card">
+                        <i class="fas fa-users-slash"></i>
+                        <h3>Traffic Rendah</h3>
+                        <p>Pengunjung dari luar negeri sangat sedikit, padahal produk Anda berpotensi global.</p>
+                    </div>
+                    <div class="problem-card">
+                        <i class="fas fa-shield-halved"></i>
+                        <h3>Kalah Saing</h3>
+                        <p>Kompetitor global memiliki otoritas domain yang jauh lebih kuat dan sulit dikejar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features/Solution Section -->
+        <section id="features">
+            <div class="container text-center">
+                <h2 class="section-title">Solusi Tepat: PBN di VPS Kelas Ekspor</h2>
+                <p class="section-subtitle">Kami membangun pondasi SEO Off-page yang kokoh untuk website Anda di panggung dunia.</p>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="icon"><i class="fas fa-server"></i></div>
+                        <div>
+                            <h3>VPS Server Ekspor</h3>
+                            <p>PBN kami dihosting di VPS dengan IP Address dari berbagai negara (USA, Germany, Singapore, UK). Ini memberikan sinyal relevansi geografis yang kuat ke Google.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon"><i class="fas fa-globe"></i></div>
+                        <div>
+                            <h3>Domain Otoritas Tinggi</h3>
+                            <p>Kami hanya menggunakan aged domain dengan metrik DA/PA/DR yang tinggi dan backlink profile yang bersih, memastikan transfer "link juice" yang maksimal.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon"><i class="fas fa-fingerprint"></i></div>
+                        <div>
+                            <h3>Bebas Jejak (Footprint-Free)</h3>
+                            <p>Setiap situs PBN menggunakan IP, registrar, dan tema yang berbeda. Sangat aman dan terlihat natural di mata mesin pencari.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon"><i class="fas fa-file-alt"></i></div>
+                        <div>
+                            <h3>Konten Unik & Relevan</h3>
+                            <p>Setiap backlink ditempatkan secara kontekstual di dalam artikel unik (human-written atau AI-edited) yang relevan dengan niche Anda.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon"><i class="fas fa-shield-alt"></i></div>
+                        <div>
+                            <h3>Proses Aman & Bertahap</h3>
+                            <p>Link building dilakukan secara bertahap (drip-feed) untuk meniru proses alami dan menghindari penalti dari Google.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="icon"><i class="fas fa-chart-pie"></i></div>
+                        <div>
+                            <h3>Laporan Lengkap</h3>
+                            <p>Anda akan menerima laporan transparan berisi semua URL backlink yang telah kami buat untuk Anda.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing">
+            <div class="container text-center">
+                <h2 class="section-title">Paket Investasi SEO Global Anda</h2>
+                <p class="section-subtitle">Pilih paket yang paling sesuai dengan target dan budget Anda.</p>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3>Starter Global</h3>
+                        <div class="price">Rp 1.500.000</div>
+                        <ul>
+                            <li><strong>10</strong> PBN Backlinks</li>
+                            <li>Domain DA 20+</li>
+                            <li><strong>3</strong> URL & <strong>5</strong> Keyword</li>
+                            <li>VPS Mix (US/SG)</li>
+                            <li>Artikel 500+ kata</li>
+                            <li>Laporan Lengkap</li>
+                        </ul>
+                        <a href="https://wa.me/6282275955901?text=Halo, saya tertarik dengan layanan PBN VPS Ekspor." class="btn btn-primary">Pesan Sekarang</a>
+                    </div>
+                    <div class="pricing-card popular">
+                        <span class="popular-badge">Paling Populer</span>
+                        <h3>Business Global</h3>
+                        <div class="price">Rp 3.500.000</div>
+                        <ul>
+                            <li><strong>25</strong> PBN Backlinks</li>
+                            <li>Domain DA 25+</li>
+                            <li><strong>7</strong> URL & <strong>15</strong> Keyword</li>
+                            <li>VPS Mix (US/EU/SG)</li>
+                            <li>Artikel 500+ kata</li>
+                            <li>Laporan Lengkap</li>
+                        </ul>
+                        <a href="https://wa.me/6282275955901?text=Halo, saya tertarik dengan layanan PBN VPS Ekspor." class="btn">Pesan Sekarang</a>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Enterprise Global</h3>
+                        <div class="price">Rp 6.000.000</div>
+                        <ul>
+                            <li><strong>50</strong> PBN Backlinks</li>
+                            <li>Domain DA 30+</li>
+                            <li><strong>15</strong> URL & <strong>30</strong> Keyword</li>
+                            <li>VPS Dedicated (Pilih Negara)</li>
+                            <li>Artikel 700+ kata</li>
+                            <li>Laporan Lengkap</li>
+                        </ul>
+                        <a href="https://wa.me/6282275955901?text=Halo, saya tertarik dengan layanan PBN VPS Ekspor." class="btn btn-primary">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <div class="container">
+                <h2 class="section-title text-center">Apa Kata Klien Kami?</h2>
+                <p class="section-subtitle text-center">Keberhasilan mereka adalah bukti kualitas layanan kami.</p>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p>"Luar biasa! Setelah pakai paket Business Global, keyword produk ekspor kami yang menargetkan pasar US akhirnya masuk halaman pertama. Traffic dari US naik 300% dalam 3 bulan."</p>
+                        <div class="author">
+                            Budi Santoso
+                            <span>Pemilik Toko Mebel Ekspor</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Awalnya ragu, tapi PBN VPS Ekspor ini benar-benar game changer. Blog travel saya sekarang dapat banyak pengunjung dari Eropa. Layanannya profesional dan laporannya sangat jelas."</p>
+                        <div class="author">
+                            Rina Amelia
+                            <span>Travel Blogger</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Sebagai agensi digital, kami butuh partner link building yang andal. VPS Ekspor selalu memberikan hasil yang konsisten untuk klien kami yang ingin go international. Sangat direkomendasikan!"</p>
+                        <div class="author">
+                            Andi Wijaya
+                            <span>CEO, Digital Agency Jakarta</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="container">
+            <h2 class="section-title text-center">Pertanyaan yang Sering Diajukan</h2>
+            <details class="faq-item">
+                <summary>Apa bedanya PBN VPS Ekspor dengan PBN biasa?</summary>
+                <p>Perbedaan utamanya adalah lokasi server dan IP Address. PBN VPS Ekspor di-host di server yang berlokasi di negara target (seperti USA, Jerman, Inggris) untuk memberikan sinyal relevansi geografis yang sangat kuat, yang krusial untuk ranking di pasar internasional. PBN biasa umumnya menggunakan server lokal (Indonesia).</p>
+            </details>
+            <details class="faq-item">
+                <summary>Apakah layanan ini aman untuk website saya?</summary>
+                <p>Sangat aman. Kami menerapkan standar keamanan tertinggi: tidak ada jejak (footprint), diversifikasi IP & hosting, konten unik, dan proses link building bertahap (drip-feed). Semuanya dirancang agar terlihat 100% natural di mata Google.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Berapa lama hingga saya bisa melihat hasilnya?</summary>
+                <p>Hasil SEO bervariasi tergantung tingkat persaingan keyword, kondisi website Anda saat ini, dan faktor lainnya. Umumnya, pergerakan positif pada peringkat keyword mulai terlihat dalam 2-4 bulan setelah link building selesai.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Apakah saya bisa memilih negara target untuk VPS?</summary>
+                <p>Tentu. Untuk paket Enterprise Global, Anda bisa me-request negara target spesifik untuk hosting PBN Anda. Untuk paket lain, kami akan menggunakan campuran IP dari lokasi-lokasi strategis seperti US, Eropa, dan Singapura.</p>
+            </details>
+        </section>
+        
+        <!-- Final CTA Section -->
+        <section id="cta">
+            <div class="container">
+                <h2>Siap Mendunia Bersama Kami?</h2>
+                <p>Jangan biarkan kompetitor global meninggalkan Anda. Ambil langkah pertama untuk mendominasi SERP internasional sekarang juga!</p>
+                <a href="https://wa.me/6282275955901?text=Halo, saya tertarik dengan layanan PBN VPS Ekspor." target="_blank" class="btn">
+                    <i class="fab fa-whatsapp"></i> Hubungi via WhatsApp
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025. All Rights Reserved. | Dibuat oleh <a href="https://vpsekspor.com/">vpsekspor</a></p>
+            <p> email@vpsekspor.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
